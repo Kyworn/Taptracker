@@ -4,7 +4,6 @@
 
 TapTracker is a cutting-edge web application designed to measure and analyze your input performance with precision and style. Whether you're a gamer, programmer, or just curious about your typing and clicking speed, TapTracker provides instant, detailed insights.
 
-![TapTracker Demo](https://your-demo-gif-url.gif)
 
 ## ✨ Features
 
@@ -21,12 +20,12 @@ TapTracker is a cutting-edge web application designed to measure and analyze you
 ## 🚀 Quick Start
 
 ### Online Version
-[Launch TapTracker](https://your-github-username.github.io/taptracker)
+[Launch TapTracker](https://kyworn.github.io/taptracker)
 
 ### Local Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/taptracker.git
+git clone https://github.com/kyworn/taptracker.git
 ```
 2. Open `index.html` in your browser
 
@@ -67,5 +66,4 @@ MIT License
 
 **Made with ❤️ by Tech Enthusiasts**
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/taptracker.svg?style=social&label=Star)](https://github.com/your-username/taptracker)
-[![Twitter](https://img.shields.io/twitter/follow/your-twitter-handle.svg?style=social&label=Follow)](https://twitter.com/your-twitter-handle)
+[![GitHub stars](https://img.shields.io/github/stars/kyworn/taptracker.svg?style=social&label=Star)](https://github.com/kyworn/taptracker)
