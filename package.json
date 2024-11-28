@@ -1,11 +1,22 @@
 {
-  "name": "cps-test-clone",
+  "name": "taptracker",
   "version": "1.0.0",
-  "description": "CPS (Clicks Per Second) Test Website",
+  "description": "A web app for measuring input performance and speed",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "input",
+    "performance",
+    "speed",
+    "test",
+    "clicks",
+    "keyboard"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.21.1"
   }
