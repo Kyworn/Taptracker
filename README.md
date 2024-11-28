@@ -20,7 +20,7 @@ TapTracker is a web application for measuring and analyzing input performance.
 
 ## Live Demo
 
-[TapTracker](https://kyworn.github.io/taptracker)
+[TapTracker](https://kyworn.github.io/Taptracker)
 
 ## 📊 Performance Metrics
 
