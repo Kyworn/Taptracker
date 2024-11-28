@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Speed Tester</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Input Speed Tester</h1>
+        </header>
+
+        <nav class="test-selector">
+            <button class="test-btn active" data-test="click">Click Test</button>
+            <button class="test-btn" data-test="keyboard">Keyboard Test</button>
+        </nav>
+
+        <main>
+            <div id="click-test" class="test-container active">
+                <div class="test-content">
+                    <div class="test-stats">
+                        <div class="stat">
+                            <span class="stat-label">Time</span>
+                            <span id="click-timer">5.00s</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Clicks</span>
+                            <span id="click-count">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">CPS</span>
+                            <span id="click-cps">0.00</span>
+                        </div>
+                    </div>
+                    <div class="test-controls">
+                        <button id="start-click-test" class="start-btn">Start</button>
+                        <button id="reset-click-test" class="reset-btn">Reset</button>
+                    </div>
+                    <div id="click-zone" class="interaction-zone" tabindex="0">
+                        Click here to test
+                    </div>
+                </div>
+            </div>
+
+            <div id="keyboard-test" class="test-container">
+                <div class="test-content">
+                    <div class="test-stats">
+                        <div class="stat">
+                            <span class="stat-label">Locked Key</span>
+                            <span id="locked-key">-</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Single</span>
+                            <span id="single-inputs">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Double</span>
+                            <span id="double-inputs">0</span>
+                        </div>
+                    </div>
+                    <div class="test-controls">
+                        <button id="reset-keyboard-test" class="reset-btn">Reset</button>
+                    </div>
+                    <div id="keyboard-zone" class="interaction-zone" tabindex="0">
+                        Press any key to start
+                    </div>
+                    <div id="keyboard-status" class="status-message">
+                        Waiting for input
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
