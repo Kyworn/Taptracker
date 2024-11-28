@@ -1,39 +1,26 @@
-# 🚀 TapTracker: Input Performance Analyzer
+# TapTracker
 
-## 🎯 What is TapTracker?
+TapTracker is a web application for measuring and analyzing input performance.
 
-TapTracker is a cutting-edge web application designed to measure and analyze your input performance with precision and style. Whether you're a gamer, programmer, or just curious about your typing and clicking speed, TapTracker provides instant, detailed insights.
+## Features
 
+- Click Speed Test
+- Keyboard Input Analysis
 
-## ✨ Features
+## How to Use
 
-### 🖱️ Click Speed Test
-- Measure your clicks per second (CPS)
-- 5-second high-intensity clicking challenge
-- Real-time performance tracking
-
-### ⌨️ Keyboard Input Test
-- Detect key input characteristics
-- Track single and double key presses
-- Identify potential hardware limitations
-
-## 🚀 Quick Start
-
-### Online Version
-[Launch TapTracker](https://kyworn.github.io/taptracker)
-
-### Local Setup
 1. Clone the repository
-```bash
-git clone https://github.com/kyworn/taptracker.git
-```
 2. Open `index.html` in your browser
 
-## 🛠️ Technologies
+## Technologies
 
-- 💻 Pure Vanilla JavaScript
-- 🎨 Responsive HTML5
-- 🌈 Modern CSS3
+- Vanilla JavaScript
+- HTML5
+- CSS3
+
+## Live Demo
+
+[TapTracker](https://kyworn.github.io/taptracker)
 
 ## 📊 Performance Metrics
 
